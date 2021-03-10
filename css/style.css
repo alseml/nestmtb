@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+a {
+  color: white;
+}
+
 body {
   margin: 0 auto;
 

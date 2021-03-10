@@ -43,6 +43,18 @@
   margin-left: 10px;
 }
 
+.site_and_login_box > ul li:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.site_and_login_box > ul li:nth-child(2) i {
+  font-size: 25px;
+  background: #aa0525;
+  padding: 5px;
+  cursor: pointer;
+}
+
 .site_and_login_box > ul li:nth-child(3) span {
   margin-left: 10px;
 }
