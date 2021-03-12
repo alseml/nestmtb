@@ -55,11 +55,11 @@
   cursor: pointer;
 }
 
-.site_and_login_box > ul li:nth-child(3) span {
+.site_and_login_box > ul li:nth-child(3) a {
   margin-left: 10px;
 }
 
-.site_and_login_box > ul li:nth-child(3) span:last-child {
+.site_and_login_box > ul li:nth-child(3) a:last-child {
   margin-right: 20px;
 }
 
@@ -74,7 +74,7 @@
   display: flex;
   align-items: flex-end;
   padding-bottom: 20px;
-  height: 85px;
+  height: 83px;
 }
 
 .top_bottom .menu_box > ul {

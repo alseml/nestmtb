@@ -1,0 +1,48 @@
+.main_slide_box {
+  min-height: 100vh;
+  min-width: 1200px;
+  width: 100vw;
+  height: calc(100vh - 120px) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.main_slide_box > ul {
+  position: absolute;
+  display: flex;
+}
+
+.main_slide_box > ul li {
+  width: 100vw;
+  height: calc(100vh - 120px) !important;
+  min-height: 100vh;
+  min-width: 1200px;
+}
+
+.main_slide_box > ul li:first-child {
+  width: 100vw;
+  height: calc(100vh - 120px) !important;
+  min-height: 100vh;
+  min-width: 1200px;
+
+  background: url("https://www.cellobike.co.kr/ActiveFile/cellobike.co.kr/main_img/16564713135fec65f5cd457.jpg")
+    center top / cover;
+}
+
+.main_slide_box > ul li:nth-child(2) {
+  width: 100vw;
+  height: calc(100vh - 120px) !important;
+  min-height: 100vh;
+  min-width: 1200px;
+  background: url("https://www.cellobike.co.kr/ActiveFile/cellobike.co.kr/main_img/20462762095fec65f5c3536.jpg")
+    center top / cover;
+}
+
+.main_slide_box > ul li:nth-child(3) {
+  width: 100vw;
+  height: calc(100vh - 120px) !important;
+  min-height: 100vh;
+  min-width: 1200px;
+  background: url("https://www.cellobike.co.kr/ActiveFile/cellobike.co.kr/main_img/401864805f7bff61911b0.jpg")
+    center top / cover;
+}
